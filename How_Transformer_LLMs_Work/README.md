@@ -18,5 +18,6 @@ A deep dive into the transformer architecture behind today's LLMs (introduced in
 | Notebook | Description |
 |---|---|
 | [`Comparing_Trained_LLM_Tokenizers.ipynb`](./Comparing_Trained_LLM_Tokenizers.ipynb) | Lesson 2. Uses `AutoTokenizer` to compare how BERT, GPT-2, GPT-4, Flan-T5, StarCoder 2, Phi-3 and Qwen2 tokenize the same text (casing, emojis, code, whitespace, numbers) and how vocabulary sizes differ. |
+| [`Understand_Model_Architecture.ipynb`](./Understand_Model_Architecture.ipynb) | Lesson 6. Explores the decoder-only model `microsoft/Phi-3-mini-4k-instruct`: text generation with a `pipeline`, inspecting the architecture (embeddings, 32 transformer blocks, LM head), and generating a single token step by step (tokenizer → transformer blocks → LM head → `argmax`). |
 
 More lessons will be added as I go through the course.
